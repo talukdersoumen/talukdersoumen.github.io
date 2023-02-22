@@ -1,2 +1,10 @@
 @import './assets/Css/SideBar.css';
 @import './assets/Css/bgImages.css';
+
+* {
+    scroll-behavior: smooth;
+}
+
+.btn {
+    cursor: pointer;
+}
