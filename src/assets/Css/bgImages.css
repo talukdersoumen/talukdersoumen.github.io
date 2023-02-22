@@ -1,0 +1,41 @@
+.navBar,
+.sideBar {
+    background: #283c86;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #45a247, #283c86);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #45a247, #283c86);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: rgb(255, 251, 0);
+}
+
+.btn:hover,
+.icn:hover {
+    color: rgb(0, 255, 255);
+}
+
+.HomeBody {
+    background-image: url('../Images/pngegg.png');
+}
+
+.HomeBody::before {
+    content: "";
+    background-image: url('../Images/home-bg.jpg');
+    background-size: cover;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    opacity: 0.3;
+}
+
+.img-border {
+    background-image: url('../Images/avatar-bg.png');
+    background-size: cover;
+}
+
+.avatar {
+    background-image: url('../Images/image1.JPG');
+    transform: translate(3%, -2%);
+}

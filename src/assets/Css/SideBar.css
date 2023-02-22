@@ -1,0 +1,35 @@
+.sideBar {
+    position: fixed;
+    height: 50%;
+    top: 25%;
+    left: 0;
+    width: calc(18px * 2 + 20px);
+    /* 40px is the width of the icon, and 20px is the margin-bottom */
+    background-color: #f1f1f1;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    /* change this to "flex-start" */
+    padding: 15px;
+    z-index: 999;
+    border-radius: 0 8px 8px 0;
+    box-shadow: 1px 1px 8px rgba(255, 255, 255, 0.527);
+}
+
+.icon-name {
+    transition: all 0.3s ease;
+    background-color: aquamarine;
+    border: 1px solid black;
+    color: black;
+    padding: 10px;
+    font-weight: 600;
+    border-radius: 8px;
+}
+
+.icon-container:hover .icon-name {
+    opacity: 1;
+    left: 54px;
+    /* adjust this to move the icon name to the right */
+}
