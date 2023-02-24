@@ -1,13 +1,15 @@
 import React from "react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faDownload, faChevronLeft } from "@fortawesome/free-solid-svg-icons";
 import { Link } from "react-router-dom";
 import SideBar from "../components/SideBar";
 
 function Resume() {
   return (
-    <div className="resume-body max-w-screen-2xl flex justify-start items-start font-bold pt-8 pl-12 pb-8">
+    <div className="resume-body flex font-bold pt-8 pl-12 pb-8">
       <Link to="/">
         <div className="g-btn" title="Home">
-          Back
+          <FontAwesomeIcon icon={faChevronLeft} /> Back
         </div>
       </Link>
 
@@ -19,7 +21,8 @@ function Resume() {
           className="g-btn"
           title="Download Resume"
         >
-          Download
+          {" "}
+          <FontAwesomeIcon icon={faDownload} className=" mr-2" />. PDF
         </a>
       </div>
       <SideBar />
