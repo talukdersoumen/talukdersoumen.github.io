@@ -56,7 +56,7 @@ relative bg-cover bg-no-repeat bg-fixed text-white"
                 </div>
                 <div className="d-address text-lg">
                   Institute of Engineering & Management, Maulana Abul Kalam Azad
-                  University of Technology, West Bengal, India
+                  University of Technology, <br /> West Bengal, India
                 </div>
               </div>
               <div className="degree-extra flex justify-between">
@@ -98,8 +98,8 @@ relative bg-cover bg-no-repeat bg-fixed text-white"
                   Higher Secondary Certificate Examination
                 </div>
                 <div className="d-address text-lg">
-                  B. A. F. Shaheen College, Chittagong Board, Chittagong,
-                  Bangladesh
+                  B. A. F. Shaheen College, Chittagong Board,
+                  <br /> Chittagong, Bangladesh
                 </div>
               </div>
               <div className="degree-extra flex justify-between">
@@ -138,7 +138,8 @@ relative bg-cover bg-no-repeat bg-fixed text-white"
                   Secondary School Certificate Examination
                 </div>
                 <div className="d-address text-lg">
-                  B. N. High School, Chittagong Board, Chittagong, Bangladesh
+                  B. N. High School, Chittagong Board,
+                  <br /> Chittagong, Bangladesh
                 </div>
               </div>
               <div className="degree-extra flex justify-between">

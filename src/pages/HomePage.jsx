@@ -4,6 +4,8 @@ import SideBar from "../components/SideBar";
 import Home from "../components/Body/Home";
 import About from "../components/Body/About";
 import Education from "../components/Body/Education";
+import Skills from "../components/Body/Skills";
+import Contact from "../components/Body/Contact";
 import ScrollToTopButton from "../components/ScrollUpButton";
 
 const HomePage = () => {
@@ -14,6 +16,8 @@ const HomePage = () => {
       <Home />
       <About />
       <Education />
+      <Skills />
+      <Contact />
       <ScrollToTopButton />
     </div>
   );
