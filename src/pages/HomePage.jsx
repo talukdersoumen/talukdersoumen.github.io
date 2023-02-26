@@ -1,11 +1,12 @@
 import React from "react";
 import Navbar from "../components/Navbar";
 import SideBar from "../components/SideBar";
-import Home from "../components/Body/Home";
-import About from "../components/Body/About";
-import Education from "../components/Body/Education";
-import Skills from "../components/Body/Skills";
-import Contact from "../components/Body/Contact";
+import Home from "../components/BodySections/Home";
+import About from "../components/BodySections/About";
+import Education from "../components/BodySections/Education";
+import Skills from "../components/BodySections/Skills";
+import Projects from "../components/BodySections/Projects";
+import Contact from "../components/BodySections/Contact";
 import ScrollToTopButton from "../components/ScrollUpButton";
 
 const HomePage = () => {
@@ -17,6 +18,7 @@ const HomePage = () => {
       <About />
       <Education />
       <Skills />
+      <Projects />
       <Contact />
       <ScrollToTopButton />
     </div>

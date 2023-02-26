@@ -29,16 +29,16 @@ const Navbar = () => {
               Education
             </a>
           </div>
-          <div className="btn cursor-pointer projects">
-            {" "}
-            <a href="#projects" rel="noopener noreferrer">
-              Projects
-            </a>
-          </div>
           <div className="btn cursor-pointer skills">
             {" "}
             <a href="#skills" rel="noopener noreferrer">
               Skills
+            </a>
+          </div>
+          <div className="btn cursor-pointer projects">
+            {" "}
+            <a href="#projects" rel="noopener noreferrer">
+              Projects
             </a>
           </div>
           <div className="btn cursor-pointer contact">

@@ -1,5 +1,6 @@
-@import './assets/Css/SideBar.css';
-@import './assets/Css/bgImages.css';
+@import './assets/Styles/SideBar.css';
+@import './assets/Styles/backgrounds.css';
+@import './assets/Styles/customs.css';
 
 * {
     scroll-behavior: smooth;
@@ -7,4 +8,12 @@
 
 .btn {
     cursor: pointer;
+}
+
+body.active-modal {
+    overflow-y: hidden;
+}
+
+.card:hover .card-overlay {
+    opacity: 1;
 }

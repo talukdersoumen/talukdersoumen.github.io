@@ -6,6 +6,7 @@ const Home = () => {
       className="HomeBody flex flex-col justify-start items-center gap-4 relative h-screen w-full text-white bg-black p-12 font-bold bg-cover bg-no-repeat"
       id="home"
     >
+      {" "}
       <div className="body-image-container h-64 w-64 flex items-center justify-center">
         <div className="img-border h-full w-full flex items-center justify-center">
           <div className="avatar flex items-center justify-center h-44 w-44 opacity-100 z-444 overflow-hidden bg-cover bg-center rounded-full"></div>
