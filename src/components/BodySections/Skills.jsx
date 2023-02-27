@@ -3,7 +3,7 @@ import React from "react";
 const Skills = () => {
   return (
     <div
-      className="AboutBody flex flex-col justify-center items-center h-screen w-full
+      className="EducationBody flex flex-col justify-center items-center h-screen w-full
 relative bg-cover bg-no-repeat bg-fixed text-white"
       id="skills"
     >
@@ -13,7 +13,7 @@ relative bg-cover bg-no-repeat bg-fixed text-white"
 
       <div className="flex w-9/12 gap-16 justify-center items-center">
         <div className="skill-sec1 flex flex-col text-left gap-5 pt-6 pb-6 pr-10 pl-10 rounded bg-white/10 hover:bg-black/40">
-          <span className="text-3xl font-semibold border-b-2 border-amber-400 p-2 text-amber-300">
+          <span className="text-3xl font-bold border-b-2 border-amber-400 p-2 text-amber-400">
             Web Technologies
           </span>
           <ul className="flex flex-col gap-1 font-semibold text-base text-lime-50">
@@ -27,7 +27,7 @@ relative bg-cover bg-no-repeat bg-fixed text-white"
           </ul>
         </div>
         <div className="skill-sec2 flex flex-col text-center gap-5 pt-6 pb-6 pr-12 pl-12 rounded bg-white/10 hover:bg-black/40">
-          <span className="text-3xl font-semibold border-b-2 border-amber-400 p-2 text-amber-300">
+          <span className="text-3xl font-bold border-b-2 border-amber-400 p-2 text-amber-400">
             Tools
           </span>
           <ul className="flex flex-col gap-1 font-semibold text-base text-lime-50">
@@ -41,7 +41,7 @@ relative bg-cover bg-no-repeat bg-fixed text-white"
           </ul>
         </div>
         <div className="skill-sec3 flex flex-col text-right gap-5 pt-6 pb-6 pr-10 pl-10 rounded bg-white/10 hover:bg-black/40">
-          <span className="text-3xl font-semibold border-b-2 border-amber-400 p-2 text-amber-300">
+          <span className="text-3xl font-bold border-b-2 border-amber-400 p-2 text-amber-400">
             Others
           </span>
           <ul className="flex flex-col gap-1 font-semibold text-base text-lime-50">

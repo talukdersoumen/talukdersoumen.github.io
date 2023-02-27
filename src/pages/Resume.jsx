@@ -18,7 +18,7 @@ function Resume() {
         <a
           href="./WorkCV.pdf"
           download
-          className="g-btn"
+          className="g-btn-2"
           title="Download Resume"
         >
           {" "}

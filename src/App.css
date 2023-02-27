@@ -6,10 +6,6 @@
     scroll-behavior: smooth;
 }
 
-.btn {
-    cursor: pointer;
-}
-
 body.active-modal {
     overflow-y: hidden;
 }

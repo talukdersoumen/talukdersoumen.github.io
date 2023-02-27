@@ -90,7 +90,7 @@ relative bg-cover bg-no-repeat text-white"
             <div className="flex gap-5 justify-center items-center">
               <button
                 type="submit"
-                className="p-3 rounded bg-green-500 font-semibold flex gap-1 items-center hover:bg-green-700"
+                className="p-3 rounded bg-green-600 font-semibold flex gap-1 items-center hover:bg-amber-400 hover:text-black"
               >
                 Submit
                 <FontAwesomeIcon icon={faPaperPlane} />
@@ -100,7 +100,7 @@ relative bg-cover bg-no-repeat text-white"
                 href="mailto:soumen.sagor@gmail.com"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="p-3 rounded bg-green-500 font-semibold flex gap-1 items-center hover:bg-green-700"
+                className="p-3 rounded bg-green-600 font-semibold flex gap-1 items-center hover:bg-amber-400 hover:text-black"
               >
                 Mail Directly
                 <FontAwesomeIcon icon={faEnvelope} />{" "}
@@ -129,7 +129,7 @@ relative bg-cover bg-no-repeat text-white"
           </div>
         )}
       </div>
-      <div className="footer w-full h-1/6 bg-black/50 flex flex-col items-center justify-center text-white/80">
+      <div className="footer w-full h-1/6 bg-black/50 flex flex-col items-center justify-center text-amber-200/70">
         <span>A Vite+TailWindCSS+React App</span>
         <span className=" font-semibold">
           Designed and Developed by SOUMEN TALUKDER with ❤

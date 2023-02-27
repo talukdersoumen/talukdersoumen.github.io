@@ -25,7 +25,7 @@ const About = () => {
           </div>
           <Link to="/resume">
             {" "}
-            <div className="g-btn">Resume</div>
+            <div className="g-btn-2">Resume</div>
           </Link>
         </div>
       </div>
