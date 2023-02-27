@@ -113,17 +113,20 @@ relative bg-cover bg-no-repeat text-white"
             {/* overlay */}
             <div
               onClick={toggleModal}
-              className=" bg-black opacity-70 w-screen h-screen top-0 left-0 right-0 bottom-0 fixed"
+              className=" bg-black/60 backdrop-blur-sm w-screen h-screen top-0 left-0 right-0 bottom-0 fixed"
             ></div>
-            <div className=" bg-white opacity-80 relative flex flex-col justify-center items-center gap-4 rounded  pt-4 pb-4 pl-8 pr-8">
+            <div className=" bg-white/80 relative flex flex-col justify-center items-center gap-4 rounded  pt-4 pb-4 pl-8 pr-8">
               <span className=" text-black font-semibold text-lg">
-                Message Sent!
+                Message Sent Successfully.
+              </span>
+              <span className=" text-black font-semibold text-lg">
+                Thank You!
               </span>
               <button
                 onClick={toggleModal}
-                className=" text-black pt-2 pb-2 pl-4 pr-4 rounded font-medium bg-slate-300 hover:bg-green-500"
+                className="pt-2 pb-2 pl-4 pr-4 rounded font-semibold bg-green-600  hover:bg-amber-400 hover:text-black"
               >
-                Ok
+                Close
               </button>
             </div>
           </div>
