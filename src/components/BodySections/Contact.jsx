@@ -31,7 +31,7 @@ relative bg-cover bg-no-repeat text-white"
       id="contact"
     >
       <div className="flex w-9/12 h-5/6 justify-center items-center">
-        <div className="ContactBody-title text-3xl font-extrabold absolute right-10 top-6 font-mono">
+        <div className="ContactBody-title text-3xl font-extrabold absolute right-10 top-6 font-mono  text-amber-400">
           ..// contact
         </div>
         <form onSubmit={handleFormSubmit}>

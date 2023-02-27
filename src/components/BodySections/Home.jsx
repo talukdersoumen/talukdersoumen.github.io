@@ -13,7 +13,7 @@ const Home = () => {
         </div>
       </div>
       <span className=" text-base relative mt-9">Hey there!</span>
-      <span className=" text-4xl font-extrabold relative">
+      <span className=" text-4xl font-extrabold relative  text-amber-400">
         I am Soumen TALUKDER
       </span>
       <span className=" text-2xl relative">I write codes for living</span>

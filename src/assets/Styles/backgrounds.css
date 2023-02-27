@@ -42,9 +42,10 @@
 }
 
 .about-body-left {
-    background-image: url('../Images/undraw_everyday_life_re_1lfb.svg');
+    background-image: url('../Images/undraw_join_re_w1lh.svg');
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: 80%;
+    opacity: 0.7;
     background-position: center;
 }
 
