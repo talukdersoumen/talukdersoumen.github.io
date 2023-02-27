@@ -18,17 +18,13 @@ const Projects = () => {
       className="AboutBody grid grid-cols-2 gap-8 pt-8 pb-8 pr-12 pl-12 h-screen w-full
 relative bg-cover bg-no-repeat bg-fixed text-black"
     >
-      <div className=" bg-black/50 relative rounded flex items-center justify-center font-semibold text-xl text-white hover:bg-black/80 cursor-pointer">
+      <div className=" bg-black/50 relative rounded text-xl text-white cursor-pointer">
         <div
           className="card"
           onMouseEnter={handleMouseEnter}
           onMouseLeave={handleMouseLeave}
         >
-          <img
-            className="card-image absolute p-2 top-0 left-0 w-full h-full object-cover"
-            src="./src/assets/Images/Project1.png"
-            alt="Card"
-          />
+          <div className="card-image absolute top-0 left-0 w-full h-full" />
           {isHovered && (
             <div className="card-overlay absolute top-0 left-0 w-full h-full bg-black/50 flex items-center justify-center  gap-5 opacity-0">
               <a
