@@ -1,5 +1,5 @@
+#
 [![Netlify Status](https://api.netlify.com/api/v1/badges/00e6b328-c662-4885-80ef-6e22e920cf9c/deploy-status)](https://app.netlify.com/sites/talukdersoumen/deploys) 
-
 #
 
 
@@ -31,13 +31,13 @@
 To use this project, you can either download the code or clone the repository using git:
 
 ```bash
-git clone https://github.com/your-username/vite-react-tailwindcss.git
+git clone https://github.com/talukdersoumen/talukdersoumen.github.io.git
 ```
 
 Then, navigate to the project directory and install the required dependencies using npm:
 
 ```bash
-cd vite-react-tailwindcss
+cd talukdersoumen.github.io
 npm install
 ```
 
@@ -81,22 +81,30 @@ This project comes with the following features out of the box:
 This project has the following folder structure:
 
 ```lua
-
+├── .github
+├── .vscode
+├── dist
+├── node_modules
 ├── public
 │   ├── favicon.ico
-│   ├── index.html
 │   └── robots.txt
 ├── src
+│   ├── assets
+│   ├── components
+│   ├── pages
 │   ├── App.css
-│   ├── App.js
+│   ├── App.jsx
 │   ├── index.css
-│   ├── index.js
-│   └── logo.svg
-├── .eslintrc.js
+│   └── main.jsx
 ├── .gitignore
+├── babel-plugin-macros.config.js
+├── babel.config.js
+├── index.html
+├── package-lock.json
 ├── package.json
 ├── postcss.config.js
 ├── README.md
+├── tailwind.config.js
 └── vite.config.js
 ```
 
