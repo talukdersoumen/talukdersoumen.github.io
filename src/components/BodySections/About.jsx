@@ -14,18 +14,23 @@ const About = () => {
             About me:{" "}
           </div>
           <div className="about-body-right-content h-auto flex items-center justify-center text-justify">
-            Hi there! I'm a 24-year-old front-end developer who loves to explore
-            new places, try different foods, and play games in my free time. I
-            grew up in Chittagong, Bangladesh, and have always had a passion for
-            travel. Someday, I dream of traveling the world on my bike and
-            experiencing all the different cultures it has to offer. I have a
-            bachelor's degree in Information Technology and graduated in 2021.
-            On top of all that, I'm a fan of memes, so we've already got
-            something in common!
+            I have always been fascinated by the intersection of design and
+            technology, and how they can come together to create beautiful and
+            functional websites. As a front-end web developer, I see myself as a
+            storyteller, using code to bring my client's vision to life. I take
+            pride in my ability to create intuitive user experiences that keep
+            visitors engaged and coming back for more. When I'm not coding, you
+            can find me exploring new hiking trails or experimenting with a new
+            recipe in the kitchen.
           </div>
           <Link to="/resume">
             {" "}
-            <div className="g-btn-2">Resume</div>
+            <div
+              className="g-btn-2 hover:scale-110"
+              title="Click to view Resume"
+            >
+              Resume
+            </div>
           </Link>
         </div>
       </div>

@@ -10,7 +10,7 @@
 
 .HomeBody::before {
     content: "";
-    background-image: url('../Images/home-bg.webp');
+    background-image: url('../Images/hero-background.webp');
     background-size: cover;
     position: absolute;
     top: 0px;
@@ -22,12 +22,12 @@
 }
 
 .img-border {
-    background-image: url('../Images/avatar-bg.png');
+    background-image: url('../Images/avatar-bg.webp');
     background-size: cover;
 }
 
 .avatar {
-    background-image: url('../Images/image1.JPG');
+    background-image: url('../Images/SoumenTalukder.webp');
     transform: translate(3%, -2%);
 }
 
@@ -62,7 +62,7 @@
 }
 
 .card-image {
-    background-image: url('../Images/Project1.png');
+    background-image: url('../Images/Project-Rick&MortyWiki.webp');
     background-position: center;
     background-size: cover;
 }

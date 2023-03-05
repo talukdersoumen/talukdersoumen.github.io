@@ -1,6 +1,9 @@
-.btn:hover,
 .icn:hover {
-    @apply text-amber-500;
+    color: #FFCA28;
+}
+
+.btn:hover {
+    @apply text-yellow-300
 }
 
 .btn {

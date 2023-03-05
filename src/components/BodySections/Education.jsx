@@ -49,8 +49,8 @@ relative bg-cover bg-no-repeat bg-fixed text-white"
         {/* Content Box */}
         <div className="flex-1 p-4 w-auto">
           {selectedOption === 1 && (
-            <div className="h-full w-full backdrop-blur-sm bg-black/60 pt-10 pb-10 pr-6 pl-6 flex flex-col gap-6">
-              <div className="degree flex flex-col gap-2 bg-black/70 rounded-lg p-4">
+            <div className="h-full w-full backdrop-blur-sm bg-black/40 pt-10 pb-10 pr-6 pl-6 flex flex-col gap-6">
+              <div className="degree flex flex-col gap-2 bg-black/50 rounded-lg p-4">
                 <div className="d-title text-3xl font-semibold  text-amber-300">
                   Bachelor of Technology
                 </div>
@@ -96,8 +96,8 @@ relative bg-cover bg-no-repeat bg-fixed text-white"
             </div>
           )}
           {selectedOption === 2 && (
-            <div className="h-full w-full backdrop-blur-sm bg-black/60 pt-10 pb-10 pr-6 pl-6 flex flex-col gap-6">
-              <div className="degree flex flex-col gap-2 bg-black/70 rounded-lg p-4">
+            <div className="h-full w-full backdrop-blur-sm bg-black/40 pt-10 pb-10 pr-6 pl-6 flex flex-col gap-6">
+              <div className="degree flex flex-col gap-2 bg-black/50 rounded-lg p-4">
                 <div className="d-title text-3xl font-semibold  text-amber-300">
                   Higher Secondary Certificate Examination
                 </div>
@@ -140,8 +140,8 @@ relative bg-cover bg-no-repeat bg-fixed text-white"
             </div>
           )}
           {selectedOption === 3 && (
-            <div className="h-full w-full backdrop-blur-sm bg-black/60 pt-10 pb-10 pr-6 pl-6 flex flex-col gap-6">
-              <div className="degree flex flex-col gap-2 bg-black/70 rounded-lg p-4">
+            <div className="h-full w-full backdrop-blur-sm bg-black/40 pt-10 pb-10 pr-6 pl-6 flex flex-col gap-6">
+              <div className="degree flex flex-col gap-2 bg-black/50 rounded-lg p-4">
                 <div className="d-title text-3xl font-semibold  text-amber-300">
                   Secondary School Certificate Examination
                 </div>
